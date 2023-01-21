@@ -1,0 +1,74 @@
+@media screen and (max-width:991px)
+{
+    section{
+        padding:2rem 0rem;
+    }
+    header nav .nav-item{
+        text-align: center;
+    }
+    .our-menue .combo{
+        height:70px;
+    }
+    #aboutus h4{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width:767px)
+{
+    .our-menue .combo{
+        height:45px;
+    }
+    .our-menue .cat-title a{
+        font-size:0.8rem;
+    }
+}
+@media screen and (max-width:575px){
+    .our-menue .combo{
+        height:110px;
+    }
+    #reviews .carousel-control-next,
+#reviews .carousel-control-prev{
+    width:20px;
+    height:20px;
+}
+.carousel-control-next-icon,
+ .carousel-control-prev-icon{
+width:10px;
+}
+#reviews .carousel-control-prev{
+    left:10px;
+}
+#reviews .carousel-control-next{
+    right:10px;
+}
+footer .info{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* footer .info p{
+    text-align: center;
+} */
+}
+@media screen and (max-width:330px){
+    #home h5{
+        font-size: 1rem;
+    }
+    #home p{
+        font-size: 1rem;
+    }
+    #home .text-content{
+        padding:3rem 0.41rem;
+    }
+    .our-menue .combo{
+        height:85px;
+    }
+    #aboutus p{
+        font-size: 0.9rem;
+    }
+    #aboutus ul li{
+        font-size: 0.9rem;
+     } 
+     
+}
+
